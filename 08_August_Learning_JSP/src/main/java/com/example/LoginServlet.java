@@ -36,8 +36,8 @@ public class LoginServlet extends HttpServlet {
     private boolean validateUser(String username, String password) {
         // JDBC connection parameters
         String jdbcUrl = "jdbc:mysql://localhost:3306/employeedb";
-        String dbUser = "root";
-        String dbPassword = "Satyam@#567";
+        String dbUser = ".........";
+        String dbPassword = ".........";
 
         // SQL query to check if the username and password are valid
         String sql = "SELECT * FROM employees WHERE username = ? AND password = ?";
