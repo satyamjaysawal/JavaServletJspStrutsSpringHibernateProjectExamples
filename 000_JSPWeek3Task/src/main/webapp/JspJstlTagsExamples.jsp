@@ -110,8 +110,8 @@
 
 	
 		<sql:query var="userList" dataSource="${dataSource}">  
-	        SELECT * FROM users;
-	    </sql:query>
+	           SELECT * FROM users;
+	         </sql:query>
 
 			<c:forEach var="user" items="${userList.rows}">
 				<p>User ID: ${user.id}</p>
