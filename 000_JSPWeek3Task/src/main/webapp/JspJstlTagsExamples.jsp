@@ -42,10 +42,12 @@
 	   		<c:otherwise>Income is undetermined...</c:otherwise>  
 		</c:choose>  
 
+
 	<!-- Looping with Core Tags -->
 	<c:forEach var="i" begin="1" end="3" step="1">
 		<p>Iteration ${i}</p>
 	</c:forEach>
+
 
 	<!-- Formatting Tags -->
 	<fmt:formatDate value="<%=new java.util.Date()%>" pattern="yyyy-MM-dd HH:mm:ss" var="now" /> 
@@ -62,9 +64,9 @@
     	<% String str = null;
         int length = str.length();%>
 	</c:catch>
-    <c:if test="${not empty catchtheException}">
-        <p>A NullPointerException occurred: ${catchtheException}</p>
-    </c:if>
+	    <c:if test="${not empty catchtheException}">
+	        <p>A NullPointerException occurred: ${catchtheException}</p>
+	    </c:if>
 
 
 	<!-- JSP Exception Handling -->
