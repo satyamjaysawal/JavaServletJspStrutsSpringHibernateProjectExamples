@@ -109,15 +109,15 @@
 	<sql:setDataSource var="dataSource" driver="com.mysql.cj.jdbc.Driver" url="jdbc:mysql://localhost:3306/mydatabase" user="root" password="Satyam@#567" />
 
 	
-	<sql:query var="userList" dataSource="${dataSource}">  
-        SELECT * FROM users;
-    </sql:query>
+		<sql:query var="userList" dataSource="${dataSource}">  
+	        SELECT * FROM users;
+	    </sql:query>
 
-		<c:forEach var="user" items="${userList.rows}">
-			<p>User ID: ${user.id}</p>
-			<p>User Name: ${user.name}</p>
-			<p>User Email: ${user.email}</p> <hr>
-		</c:forEach> <hr>
+			<c:forEach var="user" items="${userList.rows}">
+				<p>User ID: ${user.id}</p>
+				<p>User Name: ${user.name}</p>
+				<p>User Email: ${user.email}</p> <hr>
+			</c:forEach> <hr>
 	
 
 </body>
