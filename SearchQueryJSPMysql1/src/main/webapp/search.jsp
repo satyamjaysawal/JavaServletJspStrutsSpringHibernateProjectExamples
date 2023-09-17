@@ -29,7 +29,7 @@
         <table border="1">
             <tr><th>ID</th><th>Name</th><th>Email</th></tr>
             
-            <sql:query dataSource="${dataSource}" var="result">SELECT * FROM users WHERE name LIKE ?<sql:param value="%${param.searchName}%" /></sql:query>
+            <sql:query dataSource="${dataSource}" var="result"> SELECT * FROM users WHERE name LIKE ? <sql:param value="%${param.searchName}%" /></sql:query>
             <c:forEach var="row" items="${result.rows}">
                 <tr><td>${row.id}</td><td>${row.name}</td><td>${row.email}</td></tr>
             </c:forEach>
