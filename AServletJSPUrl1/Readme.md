@@ -13,3 +13,4 @@ URL Rewriting :::
 ![image](https://github.com/satyamjaysawal/JavaServletJspStrutsSpringHibernateProjectExamples/assets/108862706/f8a5c171-1ac3-4e4d-b95d-7d9b451754bc)
 
 ![image](https://github.com/satyamjaysawal/JavaServletJspStrutsSpringHibernateProjectExamples/assets/108862706/85d32276-9570-463c-8e0e-62d973a8c221)
+![image](https://github.com/satyamjaysawal/JavaServletJspStrutsSpringHibernateProjectExamples/assets/108862706/cb3df6f4-5bff-4a8d-a16a-3595ec01924d)
