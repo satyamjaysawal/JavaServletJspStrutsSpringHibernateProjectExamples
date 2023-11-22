@@ -1,4 +1,4 @@
-Has a Relationship object EmployeeAddress LocalStorage  ::::
+Has a Relationship object EmployeeAddress LocalStorage  ::
 "has-a" Relationship:
 This relationship represents composition or an "has-a" relationship. In Java, this is implemented by creating an instance of another class within a class.
 ![image](https://github.com/satyamjaysawal/JavaServletJspStrutsSpringHibernateProjectExamples/assets/108862706/6b2b612c-1fff-4e0d-b1a7-f350460057d5)
