@@ -1,4 +1,4 @@
-Has a Relationship object EmployeeAddress MySQL DB :     
+Has a Relationship object EmployeeAddress MySQL DB : :    
 
 "has-a" Relationship: This relationship represents composition or an "has-a" relationship. In Java, this is implemented by creating an instance of another class within a class.
 
