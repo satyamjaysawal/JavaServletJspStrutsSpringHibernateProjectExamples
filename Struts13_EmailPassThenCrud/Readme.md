@@ -1,4 +1,4 @@
-Sturst 1.3 Email Pass Login Then fetch Employee ::    
+Sturst 1.3 Email Pass Login Then fetch Employee :::   
 
 ![image](https://github.com/satyamjaysawal/JavaServletJspStrutsSpringHibernateProjectExamples/assets/108862706/fa717e85-44cd-4afd-87bd-b2d5eada4e5b)
 
