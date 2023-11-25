@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.3//EN" "http://struts.apache.org/dtds/struts-config_1_3.dtd">
+
+<struts-config>
+
+    <!-- Form Bean Configuration -->
+    <form-beans>
+        <form-bean name="employeeForm" type="com.example.model.EmployeeForm"/>
+    </form-beans>
+
+    <!-- Global Forwards -->
+    <global-forwards>
+        <forward name="success" path="/success.jsp"/>
+        <forward name="failure" path="/error.jsp"/>
+    </global-forwards>
+
+   <action-mappings>
+
+    <!-- Save Employee Action -->
+    <action path="/saveEmployee" type="com.example.action.SaveEmployeeAction" name="employeeForm" scope="request" validate="true" input="/employee-form.jsp">
+        <forward name="success" path="/success.jsp"/>
+        <forward name="failure" path="/error.jsp"/>
+    </action>
+
+    <!-- View Employees Action -->
+    <action path="/viewEmployees" type="com.example.action.ViewEmployeeAction" name="employeeForm" scope="request">
+        <forward name="success" path="/view-employees.jsp"/>
+        <forward name="failure" path="/error.jsp"/>
+    </action>
+
+</action-mappings>
+
+
+</struts-config>
