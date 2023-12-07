@@ -16,6 +16,7 @@ public class App
         System.out.println( "Hello ! Satyam Welcome in Hibernates" );
         
         Configuration cfg =new Configuration();
+//        cfg.configure("hibernate.cfg.xml");
         cfg.configure();
         
        SessionFactory factory=cfg.buildSessionFactory();
