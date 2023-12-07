@@ -11,6 +11,8 @@ public class App {
 	public static void main(String[] args) {
 		System.out.println("Hello ! Satyam Welcome in Hibernates");
 
+		//--------------- XML BASED Configurations --------------------------
+		
 //        Configuration cfg =new Configuration();
 ////        cfg.configure("hibernate.cfg.xml");
 //        cfg.configure();
@@ -22,5 +24,9 @@ public class App {
 		// ek hi line me code likha ..............
 		SessionFactory factory = new Configuration().configure("hibernate.cfg.xml").buildSessionFactory();
 		System.out.println("ek hi line me configuration code likha hai ....\n" + factory);
+		
+		// ------------------------------XML ------------------------------
+		
+		
 	}
 }
