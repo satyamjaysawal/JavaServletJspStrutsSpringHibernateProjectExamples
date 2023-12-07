@@ -20,7 +20,7 @@ public class App {
 
 		
 		// ek hi line me code likha ..............
-		SessionFactory factory = new Configuration().configure().buildSessionFactory();
-		System.out.println("ek hi line me configuration code likha hai ...." + factory);
+		SessionFactory factory = new Configuration().configure("hibernate.cfg.xml").buildSessionFactory();
+		System.out.println("ek hi line me configuration code likha hai ....\n" + factory);
 	}
 }
