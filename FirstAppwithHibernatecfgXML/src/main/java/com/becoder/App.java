@@ -1,7 +1,5 @@
 package com.becoder;
 
-
-
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
@@ -9,17 +7,20 @@ import org.hibernate.cfg.Configuration;
  * Hello world!
  *
  */
-public class App 
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello ! Satyam Welcome in Hibernates" );
-        
-        Configuration cfg =new Configuration();
-//        cfg.configure("hibernate.cfg.xml");
-        cfg.configure();
-        
-       SessionFactory factory=cfg.buildSessionFactory();
-       System.out.println(factory);
-    }
+public class App {
+	public static void main(String[] args) {
+		System.out.println("Hello ! Satyam Welcome in Hibernates");
+
+//        Configuration cfg =new Configuration();
+////        cfg.configure("hibernate.cfg.xml");
+//        cfg.configure();
+//        
+//       SessionFactory factory=cfg.buildSessionFactory();
+//        System.out.println(factory);
+
+		
+		// ek hi line me code likha ..............
+		SessionFactory factory = new Configuration().configure().buildSessionFactory();
+		System.out.println("ek hi line me configuration code likha hai ...." + factory);
+	}
 }
